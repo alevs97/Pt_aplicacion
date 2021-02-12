@@ -1,9 +1,10 @@
 const express = require('express');
 const app = express();
-
+require('dotenv').config();
 const hbs = require('hbs');
 
-const port = process.env.PORT || 3000;
+
+const port = process.env.PORT;
 
 require(__dirname + '/hbs/helpers');
 
