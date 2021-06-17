@@ -33,6 +33,13 @@ app.get('/about', (req, res) => {
     });
 });
 
+app.get('/anexos', (req, res) => {
+    //Denderizar los .hbs
+    res.render('anexos', {
+        anio: new Date().getFullYear()
+    });
+});
+
 app.listen(port, () => {
     console.log(`Esta escuchando en el puesto ${port}`);
 })
