@@ -2,7 +2,7 @@
 {{> navbar}}
 
 <div class="row">
-    <div class="col-4">
+    <div class="col-3 mx-5">
         <h3>Descripción de Predicciones:</h3>
         <p>En la siguiente sección se pueden apreciar los Dashboards resultantes del pronóstico de la diabetes en la
             República Mexicana </p>
@@ -135,7 +135,7 @@
                 <div class="card-header" id="headingOne">
                     <h5 class="mb-0">
                         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
-                            aria-expanded="true" aria-controls="collapseOne">
+                            aria-expanded="false" aria-controls="collapseOne">
                             Regresión Lineal
                         </button>
                     </h5>
@@ -156,7 +156,7 @@
                         </button>
                     </h5>
                 </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
                     <div class="card-body">
                         {{> poli_2}}
                     </div>
@@ -171,7 +171,7 @@
                         </button>
                     </h5>
                 </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
                     <div class="card-body">
                         {{> poli_3}}
                     </div>
@@ -186,7 +186,7 @@
                         </button>
                     </h5>
                 </div>
-                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordion">
                     <div class="card-body">
                         {{> lineal_comparacion}}
                     </div>
@@ -201,7 +201,7 @@
                         </button>
                     </h5>
                 </div>
-                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                <div id="collapseFive" class="collapse show" aria-labelledby="headingFive" data-parent="#accordion">
                     <div class="card-body">
                         {{> polinomial_2_comparacion}}
                     </div>
@@ -216,7 +216,7 @@
                         </button>
                     </h5>
                 </div>
-                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                <div id="collapseSix" class="collapse show" aria-labelledby="headingSix" data-parent="#accordion">
                     <div class="card-body">
                         {{> polinomial_3_comparacion}}
                     </div>
